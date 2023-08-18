@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.jmrtd.test.lds.CardSecurityFileTest" time="0.232" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\freelancer\JMRTD\jmrtd-code-r1879-trunk\jmrtd\target\test-classes;E:\freelancer\JMRTD\jmrtd-code-r1879-trunk\jmrtd\target\classes;C:\Users\pc\.m2\repository\net\sf\scuba\scuba-smartcards\0.0.20\scuba-smartcards-0.0.20.jar;C:\Users\pc\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\pc\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\pc\.m2\repository\org\ejbca\cvc\cert-cvc\1.4.13\cert-cvc-1.4.13.jar;C:\Users\pc\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\pc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pc\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\pc\.jdks\jbr-17.0.8\bin"/>
+    <property name="sun.java.command" value="C:\Users\pc\AppData\Local\Temp\surefire12245498623227439676\surefirebooter-20230815065721787_3.jar C:\Users\pc\AppData\Local\Temp\surefire12245498623227439676 2023-08-15T06-57-21_509-jvmRun1 surefire-20230815065721787_1tmp surefire_0-20230815065721787_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\freelancer\JMRTD\jmrtd-code-r1879-trunk\jmrtd\target\test-classes;E:\freelancer\JMRTD\jmrtd-code-r1879-trunk\jmrtd\target\classes;C:\Users\pc\.m2\repository\net\sf\scuba\scuba-smartcards\0.0.20\scuba-smartcards-0.0.20.jar;C:\Users\pc\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\pc\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\pc\.m2\repository\org\ejbca\cvc\cert-cvc\1.4.13\cert-cvc-1.4.13.jar;C:\Users\pc\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\pc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pc\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pc"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Users\pc\.jdks\jbr-17.0.8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\freelancer\JMRTD\jmrtd-code-r1879-trunk\jmrtd"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="jbr.virtualization.information" value="No virtualization detected"/>
+    <property name="surefire.real.class.path" value="C:\Users\pc\AppData\Local\Temp\surefire12245498623227439676\surefirebooter-20230815065721787_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+7-b1000.8"/>
+    <property name="user.name" value="pc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="JBR-17.0.8+7-1000.8-nomod"/>
+    <property name="localRepository" value="C:\Users\pc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\pc\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="E:\freelancer\JMRTD\jmrtd-code-r1879-trunk\jmrtd"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\pc\.jdks\jbr-17.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\pc\AppData\Local\ActiveState\StateTool\release;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\pc\AppData\Roaming\nvm;C:\Program Files\nodejs;E:\laragon\bin\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;E:\heroku\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\pc\AppData\Local\ActiveState\StateTool\release\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\pc\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\pc\AppData\Roaming\Composer\vendor\bin;C:\Users\pc\AppData\Roaming\npm;E:\laragon\bin;E:\laragon\bin\apache\httpd-2.4.47-win64-VS16\bin;E:\laragon\bin\composer;E:\laragon\bin\git\bin;E:\laragon\bin\git\cmd;E:\laragon\bin\git\mingw64\bin;E:\laragon\bin\git\usr\bin;E:\laragon\bin\laragon\utils;E:\laragon\bin\mysql\mysql-5.7.33-winx64\bin;E:\laragon\bin\nginx\nginx-1.19.10;E:\laragon\bin\ngrok;E:\laragon\bin\nodejs\node-v14;E:\laragon\bin\notepad++;E:\laragon\bin\redis\redis-x64-3.2.100;E:\laragon\bin\telnet;E:\laragon\usr\bin;C:\Users\pc\AppData\Local\activestate\cache\bin;C:\Users\pc\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\pc\AppData\Local\Programs\Python\Python39\;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Users\pc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pc\AppData\Roaming\nvm;C:\Program Files\nodejs;E:\laragon\bin\php\php81;C:\Program Files\OpenSSL-Win64\bin;E:\xampp\htdocs\ffmpeg\ext\bin;E:\heroku\bin;;E:\JetBrains\IntelliJ IDEA 2023.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="JetBrains s.r.o."/>
+    <property name="java.vm.version" value="17.0.8+7-b1000.8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testParseSampleCardSecurityFileFromResource" classname="org.jmrtd.test.lds.CardSecurityFileTest" time="0.23">
+    <system-err><![CDATA[Aug 15, 2023 6:57:24 AM org.jmrtd.lds.SecurityInfo getInstance
+WARNING: Unsupported SecurityInfo, oid = 0.4.0.127.0.7.2.2.3.2
+Aug 15, 2023 6:57:24 AM org.jmrtd.lds.CardSecurityFile getSecurityInfos
+WARNING: Could not parse, skipping security info
+Aug 15, 2023 6:57:24 AM org.jmrtd.lds.SecurityInfo getInstance
+WARNING: Unexpected exception
+java.lang.IllegalArgumentException: unknown object in getInstance: org.bouncycastle.asn1.ASN1ObjectIdentifier
+	at org.bouncycastle.asn1.ASN1Sequence.getInstance(ASN1Sequence.java:105)
+	at org.bouncycastle.asn1.x509.AlgorithmIdentifier.getInstance(AlgorithmIdentifier.java:34)
+	at org.bouncycastle.asn1.x509.SubjectPublicKeyInfo.<init>(SubjectPublicKeyInfo.java:89)
+	at org.bouncycastle.asn1.x509.SubjectPublicKeyInfo.getInstance(SubjectPublicKeyInfo.java:44)
+	at org.jmrtd.lds.SecurityInfo.getInstance(SecurityInfo.java:232)
+	at org.jmrtd.lds.CardSecurityFile.getSecurityInfos(CardSecurityFile.java:396)
+	at org.jmrtd.lds.CardSecurityFile.readContent(CardSecurityFile.java:190)
+	at org.jmrtd.lds.CardSecurityFile.<init>(CardSecurityFile.java:145)
+	at org.jmrtd.test.lds.CardSecurityFileTest.testParseSampleCardSecurityFileFromResource(CardSecurityFileTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at junit.framework.TestCase.runTest(TestCase.java:177)
+	at junit.framework.TestCase.runBare(TestCase.java:142)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:130)
+	at junit.framework.TestSuite.runTest(TestSuite.java:241)
+	at junit.framework.TestSuite.run(TestSuite.java:236)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+Aug 15, 2023 6:57:24 AM org.jmrtd.lds.CardSecurityFile getSecurityInfos
+WARNING: Exception while parsing, skipping security info
+java.lang.IllegalArgumentException: Malformed input stream.
+	at org.jmrtd.lds.SecurityInfo.getInstance(SecurityInfo.java:276)
+	at org.jmrtd.lds.CardSecurityFile.getSecurityInfos(CardSecurityFile.java:396)
+	at org.jmrtd.lds.CardSecurityFile.readContent(CardSecurityFile.java:190)
+	at org.jmrtd.lds.CardSecurityFile.<init>(CardSecurityFile.java:145)
+	at org.jmrtd.test.lds.CardSecurityFileTest.testParseSampleCardSecurityFileFromResource(CardSecurityFileTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at junit.framework.TestCase.runTest(TestCase.java:177)
+	at junit.framework.TestCase.runBare(TestCase.java:142)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:130)
+	at junit.framework.TestSuite.runTest(TestSuite.java:241)
+	at junit.framework.TestSuite.run(TestSuite.java:236)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+]]></system-err>
+  </testcase>
+</testsuite>
